@@ -22,6 +22,8 @@ var go = Letsgo()
 # 1. Explore variables value and state
 ---
 
+Commands: `expression`, `e`, `print`, `po`, `p`
+
 `(lldb) expression ...`
 `(lldb) exp ...`
 `(lldb) e ...`
