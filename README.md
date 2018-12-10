@@ -19,12 +19,14 @@ var go = Letsgo()
 * 기본 사용법
 
 
-# 1. Explore variables value and state
+# 1. 변수의 값, 상태 출력
 ---
 
 Commands: `expression`, `e`, `print`, `po`, `p`
 
 `(lldb) expression ...`
-`(lldb) exp ...`
+
+`(lldb) po ...`
+
 `(lldb) e ...`
 
