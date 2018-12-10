@@ -19,7 +19,10 @@ var go = Letsgo()
 * 기본 사용법
 
 
-1. Explore variables value and state
-***
+# 1. Explore variables value and state
+---
 
-`(lldb) expression ...` = `(lldb) exp ...` = `(lldb) e ...`
+`(lldb) expression ...`
+`(lldb) exp ...`
+`(lldb) e ...`
+
