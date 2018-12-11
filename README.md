@@ -29,9 +29,13 @@
 let car = Car(year: 2014, name: "BMW", color: .red)
 ```
 
-`'p car'`, `'expr -o -- car'` : print object.
+print object.
 
-`'po car'`, `'expr -o --car'` : object의 description을 출력.
+`'p car'`, `'expr -o -- car'`
+
+object의 description을 출력.
+
+`'po car'`, `'expr -o --car'`
 
 
 # 4. Modify values at runtime
