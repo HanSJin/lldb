@@ -20,8 +20,13 @@ Commands: `expression`, `e`, `print`, `po`, `p`
 ---
 
 `'r'` : run, Run the process
+
 `'n'` : step over, 다음 라인 실행
+
 `'s'` : step in, 다음 라인 실행
+
 `'fin'` : step out, 다음 라인 실행
+
 `'c'` : continue, 다음 Br로 이동
+
 `'exit'` : 디버깅 종료
