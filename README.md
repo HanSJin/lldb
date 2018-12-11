@@ -9,3 +9,9 @@ Commands: `expression`, `e`, `print`, `po`, `p`
 
 `(lldb) e ...`
 
+# 1. Console Shortcut
+---
+
+`'Cmd + Shift + C'` : 콘솔로 포커 옮기기
+
+`'Cmd + K'` : 콘솔 Clear
