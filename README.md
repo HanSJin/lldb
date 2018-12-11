@@ -1,14 +1,3 @@
-# 1. 변수의 값, 상태 출력
----
-
-Commands: `expression`, `e`, `print`, `po`, `p`
-
-`(lldb) expression ...`
-
-`(lldb) po ...`
-
-`(lldb) e ...`
-
 # 1. Console Shortcuts
 ---
 
@@ -16,17 +5,28 @@ Commands: `expression`, `e`, `print`, `po`, `p`
 
 `'Cmd + K'` : 콘솔 Clear
 
+`'Cmd + \'` : 현재 라인 브레이크 포인트 추가/삭제
+
+`'Cmd + Y'` : 브레이크 포인트 활성/비활성
+
+
 # 2. Changing debug steps
 ---
 
-`'r'` : run, Run the process
-
 `'n'` : step over, 다음 라인 실행
 
-`'s'` : step in, 다음 라인 실행
+`'s'` : step in
 
-`'fin'` : step out, 다음 라인 실행
+`'fin'` : step out
 
-`'c'` : continue, 다음 Br로 이동
+`'c'` : continue, 다음 브레이크로 이동
 
-`'exit'` : 디버깅 종료
+
+# 3. Print Object
+---
+
+let car = Car(year: 2014, name: "BMW", color: .red)
+
+`'p car'`, `'expr -o -- car'` : print object.
+
+`'po car'`, `'expr -o --car'` : object의 description을 출력.
