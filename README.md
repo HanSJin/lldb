@@ -38,7 +38,7 @@ let car = Car(year: 2014, name: "BMW", color: .red)
 
 ### 프레임 출력
 
-`thread backtrace`, `th backtrace` : 현재 스레드의 프레임을 출력.
+`thread backtrace`, `bt`, `bt N` : 현재 스레드의 프레임을 출력.
 
 `frame select N`, `fr select N`: N 번째 프레임으로 디버깅 포커스 이동
 
@@ -50,10 +50,6 @@ let car = Car(year: 2014, name: "BMW", color: .red)
 
 
 
-# 4. Print Something
----
-
-`thread backtrace` : 현재 프레임의 frame 스택을 확인
 
 
 # 4. Modify values at runtime
