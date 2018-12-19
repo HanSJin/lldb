@@ -22,23 +22,30 @@
 `'c'` : continue, 다음 브레이크로 이동
 
 
-# 3. Print Object
+# 3. Print Something
 ---
 
 ```
 let car = Car(year: 2014, name: "BMW", color: .red)
 ```
 
-print object.
+변수 출력
 
-`'p car'`, `'expr -o -- car'`
+`p car`, `expr -o -- car` : print object.
 
-object의 description을 출력.
+`po car`, `expr -- car` : object의 description 함수를 출력.
 
-`'po car'`, `'expr -o --car'`
+`
+
+
+# 4. Print Something
+---
+
+`thread backtrace` : 현재 프레임의 frame 스택을 확인
 
 
 # 4. Modify values at runtime
 ---
+
 
 
